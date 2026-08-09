@@ -1,0 +1,10 @@
+# User uploads (ignore uploaded complaint files, preserve directory)
+uploads/*
+!uploads/.gitkeep
+
+# Environment & local OS files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
